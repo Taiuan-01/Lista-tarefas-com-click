@@ -1,0 +1,59 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.tarefas-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tarefas-completas,
+.tarefas-pendentes {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.tarefas-completas,
+.tarefas-pendentes {
+  min-width: 45%;
+}
+
+h2 {
+  color: #555;
+}
+
+.task {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+strike {
+  color: #999;
+}
+
+.tarefas-pendentes .task {
+  background-color: #fff8dc;
+}
+
+.tarefas-completas .task {
+  background-color: #e0ffe0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+strong {
+  color: #333;
+}
